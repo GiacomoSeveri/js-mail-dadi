@@ -19,9 +19,9 @@ cBtn.addEventListener('click', function(){
     dTwo.innerText = `Il secondo numero è ${randomTwo}`;
 
     if (randomOne < randomTwo) {
-        gg.innerText = `Il vincitore è ${randomTwo} COMPLIMENTI!`;
+        gg.innerText = `Il vincitore è ${randomTwo}, COMPLIMENTI!`;
     } else if (randomOne > randomTwo) {
-        gg.innerText = `Il vincitore è ${randomOne} COMPLIMENTI!`;
+        gg.innerText = `Il vincitore è ${randomOne}, COMPLIMENTI!`;
     } else if (randomOne === randomTwo) {
         gg.innerText = 'Pareggio, sarà per la prossima.';
     }
